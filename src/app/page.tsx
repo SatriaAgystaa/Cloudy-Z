@@ -51,7 +51,7 @@ export default function HomePage() {
           className="text-center mb-8"
         >
           <h1 className="text-4xl font-bold text-gray-800">
-          Cloudy'z
+          Cloudy&rsquo;z
           </h1>
           <p className="text-lg text-gray-600 mt-2">Check out the weather in a fun way!</p>
         </motion.header>

@@ -23,7 +23,7 @@ export default function WeatherHighlights({ weather }: { weather: WeatherData })
       transition={{ delay: 0.8 }}
       className="bg-white p-6 rounded-2xl shadow-lg"
     >
-      <h2 className="text-gray-800 font-bold text-xl mb-6">Today's Highlights</h2>
+      <h2 className="text-gray-800 font-bold text-xl mb-6">Today&rsquo;s Highlights</h2>
       <div className="grid grid-cols-2 gap-4">
         {highlights.map((item, index) => (
           <motion.div

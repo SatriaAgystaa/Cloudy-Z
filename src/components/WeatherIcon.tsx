@@ -1,5 +1,5 @@
 'use client';
-import { FiSun, FiCloud, FiCloudRain, FiCloudSnow, FiWind, FiCloudLightning } from 'react-icons/fi';
+import { FiSun, FiCloud, FiCloudRain, FiCloudSnow, FiCloudLightning } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 export default function WeatherIcon({ code, size = 24 }: { code: string; size?: number }) {
@@ -273,7 +273,7 @@ export default function WeatherIcon({ code, size = 24 }: { code: string; size?: 
       </motion.div>
     )
   };
-  
+
   return iconMap[code] || (
     <motion.div
       animate={{ 
